@@ -5,9 +5,10 @@ import './rightNav.css'
 
 const RightNav = (props) => {
   
+  
     return (     
     <div className="links-container">
-        <Link to="/">
+        <Link to="/home">
           <li className="links" onClick={props.handleClick}>
             Home
           </li>
@@ -17,11 +18,11 @@ const RightNav = (props) => {
             Projects
           </li>
         </Link>
-        <Link to="/linkedin">
-          <li className="links" onClick={props.handleClick}>
+        
+          <li className="links" onClick={() => props.history.bind("https://www.linkedin.com/in/jorgelsotojr/")}>
             Linkedin
           </li>
-        </Link>
+      
         <Link to="/about">
           <li className="links" onClick={props.handleClick}>
             About

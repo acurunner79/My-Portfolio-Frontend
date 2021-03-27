@@ -1,0 +1,54 @@
+:root {
+    --drop-height: 100px;
+    --logo-size: 200px;
+    /* --offset: 100px; */
+    --shadow-height: 8px;
+  } 
+
+div .button {
+    color: #32bacc;
+    border: 2px solid #32bacc;
+    background: white;
+    /* border-radius: 4px; */
+    padding: 20px 50px;
+    font-size: 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .logo {
+    width: var(--logo-size);
+    height: var(--logo-size);
+    position: absolute;
+    top: var(--offset);
+    left: calc(38% - var(--logo-size)/2);
+    animation-name: bounce; 
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    animation-iteration-count: 10;
+  }
+  
+  /* .shadow {
+    width: var(--logo-size);
+    height: var(--shadow-height);
+    background-color: teal;
+    position: absolute;
+    top: calc(var(--offset) + var(--drop-height) + var(--logo-size) - 1.5 * var(--shadow-height));
+    left: calc(50% - var(--logo-size)/2);
+  } */
+  
+  @keyframes bounce {
+    from { 
+      transform: translateY(0) scale(1);
+    }
+    to   { 
+      transform: translateY(var(--drop-height)) scale(1, 0.7);
+    }
+  }

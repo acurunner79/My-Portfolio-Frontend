@@ -1,22 +1,12 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from'react-bootstrap/Button'
 import './card.css'
 
 
-const ProjectCard = () => {
+const ProjectCard = ({project}) => {
 
-    const [project, setProject] = useState(null)
 
-    const getData = async () => {
-        
-        const projectCall = await fetch("https://shrouded-brook-86349.herokuapp.com/projects")
-        const projectData = await projectCall.json()
-        setProject(projectData)
-        console.log('This is project data', projectData)
-    }
-
-    useEffect(() => getData(), [])
 
     const loaded = () => {
         return (
