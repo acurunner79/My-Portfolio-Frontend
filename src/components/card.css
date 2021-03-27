@@ -1,16 +1,24 @@
 .card-container {
     display: flex;
-    border: 2px solid black;
     justify-content: space-around;
     border-radius: 4px;
     padding: 50px;
     flex-wrap: wrap;
 }
 
-/* .card-text {
-    text-align: center;
+.card {
+    border: 2px solid #32bacc;
+    padding: 5px;
+}
 
-} */
+.card-button {
+    text-decoration: none;
+}
+
+.card-text {
+    width: 250px;
+    margin: 0 auto;
+}
 
 .project-image {
     width: 250px;

@@ -1,5 +1,5 @@
 .right-nav {
-    text-decoration: none;
+    text-decoration: none !important;
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
@@ -11,6 +11,8 @@
     right: -200px;
     transition: all 0.3s ease-in-out;
     z-index: 50;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .outside {

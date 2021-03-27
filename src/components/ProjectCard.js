@@ -26,12 +26,12 @@ const ProjectCard = () => {
                     <div key={index}>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img className="project-image" src={info.img} />
-                            <Card.Body>
+                            <Card.Body className="card-body">
                                 <Card.Title>{info.name}</Card.Title>
                                 <Card.Text className="card-text">
                                     {info.description}
                                 </Card.Text>
-                                <Button variant="secondary" href={info.url}>Open Project</Button>
+                                <Button className="card-button" variant="secondary" href={info.url}>Open Project</Button>
                             </Card.Body>
                         </Card>
                     </div>
