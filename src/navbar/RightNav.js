@@ -13,13 +13,13 @@ const RightNav = (props) => {
             <div className="underline"></div>
           </li>
         </Link>
-        <Link to="/my_garage">
+        <Link to="/my_projects">
           <li className="links" onClick={props.handleClick}>
             My Projects
             <div className="underline"></div>
           </li>
         </Link>
-        <Link to="/build_a_car">
+        <Link to="/linkedin">
           <li className="links" onClick={props.handleClick}>
             Linkedin
             <div className="underline"></div>

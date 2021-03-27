@@ -3,16 +3,14 @@
   text-decoration: inherit;
 }
 h2 {
-  color: black;
+  color: white;
   text-decoration: none !important;
 }
 .a, div._nav {
-    color: black;
+    color: white;
     width: 100vw;
     height: 65px;
-    padding: 0 20px;
     right: 65px;
-    /* border-bottom: 2px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +26,7 @@ h2 {
   }
 
   .navlogo {
-    padding: 45px 0 0 10px;
+    padding: 45px 0 0 40px;
   }
 
   div.links-container li.links {
