@@ -7,21 +7,21 @@ import './card.css'
 const ProjectCard = ({project}) => {
 
 
-
     const loaded = () => {
         return (
             <div className="card-container">
                 {project?.map((info, index) => {
                     return (
                     <div key={index}>
+                        <h2>{info.name}</h2>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img className="project-image" src={info.img} />
                             <Card.Body className="card-body">
-                                <Card.Title>{info.name}</Card.Title>
+                                <Card.Title></Card.Title>
                                 <Card.Text className="card-text">
                                     {info.description}
                                 </Card.Text>
-                                <Button className="card-button" variant="secondary" href={info.url}>Open Project</Button>
+                                <button className="card-button" variant="secondary" href={info.url}><h2>Open Project</h2></button>
                             </Card.Body>
                         </Card>
                     </div>

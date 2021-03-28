@@ -6,6 +6,20 @@
     flex-wrap: wrap;
 }
 
+h2 {
+    background: -webkit-linear-gradient(#fa914d, #32bacc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+h4 {
+    background: -webkit-linear-gradient(#fa914d, #32bacc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+
 /* .card {
     border: 2px solid #32bacc;
     padding: 5px;
@@ -20,6 +34,12 @@
 
 .card-button {
     text-decoration: none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid #32bacc;
+    border-left: 2px solid #32bacc;
+    border-right: 2px solid #32bacc;
+    margin: 25px 25px 25px 25px;
+    background: transparent;
 }
 
 .card-text {
