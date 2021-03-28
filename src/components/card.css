@@ -6,9 +6,16 @@
     flex-wrap: wrap;
 }
 
-.card {
+/* .card {
     border: 2px solid #32bacc;
     padding: 5px;
+} */
+
+.card-title {
+    font-size: 25px;
+    background: -webkit-linear-gradient(#fa914d, #32bacc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .card-button {
@@ -18,9 +25,13 @@
 .card-text {
     width: 250px;
     margin: 0 auto;
+    border-right: 2px solid #32bacc;
+    border-left: 2px solid #32bacc;
+    border-bottom: 2px solid #32bacc;
 }
 
 .project-image {
     width: 250px;
     height: 250px;
+    border-radius: 4px;
 }

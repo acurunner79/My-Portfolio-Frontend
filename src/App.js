@@ -11,15 +11,18 @@ const GlobalStyle = createGlobalStyle`
 body {
   text-align: center;
   text-decoration: none !important;
-  background: white;
+  background: black;
   color: #32bacc;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: black;
-  font-family: 'Blinker';
+  /* -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black; */
+  font-family: 'Unica One';
 }
 
 h1 {
-  font-size: 38px;
+  font-size: 60px;
+  background: -webkit-linear-gradient(#fa914d, #32bacc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 `
 function App() {

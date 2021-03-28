@@ -18,7 +18,7 @@ padding: 10px;
 const Skills = () => {
     return (
         <div className="skills-container">
-            <h2>Skills</h2>
+            <h1>Skills</h1>
             <Section className="skills-icons">
                 <Img src="https://res.cloudinary.com/acurunner79/image/upload/v1616810126/html5-40-1175193_o6nbmb.png"/>
                 <Img src="https://res.cloudinary.com/acurunner79/image/upload/v1616810420/css_pgejuf.png"/>

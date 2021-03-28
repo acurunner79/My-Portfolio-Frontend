@@ -17,7 +17,7 @@ div.hamburger {
     background-color: #32bacc; 
     /* border-radius: 2px; */
     transform-origin: 1px;
-    transition: all 0.3s linear; 
+    transition: all 0.3s ease-in-out; 
     padding: 2px 0 2px 0;
     margin: 1px 0 2px 0;
 }
@@ -28,7 +28,7 @@ div.hamburger {
     background-color: #32bacc; 
     /* border-radius: 2px; */
     transform-origin: 1px;
-    transition: all 0.3s linear; 
+    transition: all 0.3s ease-in-out; 
     padding: 2px 0 2px 0;
     margin: 2px 0 2px 0;
 }
@@ -38,7 +38,7 @@ div.hamburger {
     background-color: #32bacc; 
     /* border-radius: 2px; */
     transform-origin: 1px;
-    transition: all 0.3s linear;
+    transition: all 0.3s ease-in-out;
     padding: 2px 0 2px 0;
     margin: 2px 0 2px 0;
 }
