@@ -13,7 +13,7 @@ const Landing = () => {
         </div>
         <div className="container">
             <div className="logo">
-                <img className="logo" src="https://res.cloudinary.com/acurunner79/image/upload/v1616873759/website_logo_transparent_background_2_ahhr1g.png" />
+                <img className="logo" src="https://res.cloudinary.com/acurunner79/image/upload/v1616873759/website_logo_transparent_background_2_ahhr1g.png" alt="landing-logo"/>
             </div>
             <div className="shadow"></div>
         </div>

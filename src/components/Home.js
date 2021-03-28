@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Skills from './Skills'
 import './home.css'
 
 const Div = styled.div`
@@ -29,6 +30,7 @@ const Home = () => {
         <Div>
             <P>Full-stack web developer and professional dancer who is always looking for ways to level up in all aspects. Passionate about applying structure in my everyday life, making me more efficient. Eager to create functional products shaped around consumer wants and needs influenced by industry-based feedback and research</P>
         </Div>
+        <Skills />
         </div>
     )
 }
