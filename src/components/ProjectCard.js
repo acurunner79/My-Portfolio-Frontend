@@ -12,7 +12,7 @@ const ProjectCard = ({project}) => {
             <div className="card-container">
                 {project?.map((info, index) => {
                     return (
-                    <div key={index}>
+                        <div key={index}>
                         <h2>{info.name}</h2>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img className="project-image" src={info.img} />
@@ -21,7 +21,7 @@ const ProjectCard = ({project}) => {
                                 <Card.Text className="card-text">
                                     {info.description}
                                 </Card.Text>
-                                <button className="card-button" variant="secondary" href={info.url}><h2>Open Project</h2></button>
+                                <button className="card-button" variant="secondary" ><h2><a target="_blank" rel="noreferrer" href={info.url}>Open Project</a></h2></button>
                             </Card.Body>
                         </Card>
                     </div>
