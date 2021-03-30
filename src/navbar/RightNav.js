@@ -17,17 +17,7 @@ const RightNav = (props) => {
           <li className="links" onClick={props.handleClick}>
             Projects
           </li>
-        </Link>
-        
-          <li className="links" onClick={() => props.history.bind("https://www.linkedin.com/in/jorgelsotojr/")}>
-            Linkedin
-          </li>
-      
-        <Link to="/about">
-          <li className="links" onClick={props.handleClick}>
-            About
-          </li>
-        </Link>
+          </Link>       
     </div>
     )
 }
