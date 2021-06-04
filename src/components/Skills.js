@@ -23,32 +23,33 @@ const Skills = () => {
                 <h1>Front-End</h1>
             <div className="front-end">
                 <section className="icons">
-                    <FaReact  size="70" color="light blue"/>
-                    <p>React</p>
+                    <FaReact size="70" color="light blue"/>
+                    <p className="hidden-text">React</p>
                 </section>
                 <section className="icons">
                     <FaHtml5 size="70" color="orange"/>
-                    <p>HTML5</p>
+                    <p className="hidden-text">HTML5</p>
                 </section>
                 <section className="icons">
                     <FaCss3 size="70" color="blue"/>
-                    <p>CSS3</p>
+                    <p className="hidden-text">CSS3</p>
                 </section>
                 <section className="icons">
                     <FaJs size="70" color="#c8ce0a"/>
-                    <p>JavaScript</p>
+                    <p className="hidden-text">JavaScript</p>
                 </section>
+                    <p className="hidden-text">This is where Im going to put some text that speaks about what I know. This is also a test to see how it would look with a couple beefy sentences. I wonder how many sentences and words I can put in here until it looks weird?</p>
                 <section className="icons">
                     <FaBootstrap size="70" color="purple"/>
-                    <p>Bootstrap</p>
+                    <p className="hidden-text">Bootstrap</p>
                 </section>
                 <section className="icons">
                     <FaNode size="70" color="green"/>
-                    <p>NodeJS</p>
+                    <p className="hidden-text">NodeJS</p>
                 </section>
                 <section className="icons">
                     <FaNpm size="70" color="red"/>
-                    <p>NPM</p>
+                    <p className="hidden-text">NPM</p>
                 </section>
             </div>
             </div>
@@ -57,19 +58,20 @@ const Skills = () => {
                 <div className="back-end">
                     <section className="icons">
                         <Img src="https://res.cloudinary.com/acurunner79/image/upload/v1616795549/13248968591579517872_n86pje.svg"/>
-                        <p>Ruby</p>
+                        <p className="hidden-text">Ruby</p>
                     </section>
                     <section className="icons">
                         <Img src="https://res.cloudinary.com/acurunner79/image/upload/v1616795549/8609334331551942134_uokmqg.svg"/>
-                        <p>PostgreSQL</p>
+                        <p className="hidden-text">PostgreSQL</p>
                     </section>
                     <section className="icons">
                         <Img src="https://res.cloudinary.com/acurunner79/image/upload/v1616795549/13642417491551942639_rk0uow.svg"/>
-                        <p>Ruby On Rails</p>
+                        <p className="hidden-text">Ruby On Rails</p>
                     </section>
+                        <p className="hidden-text">This is where Im going to put some text that speaks about what I know. This is also a test to see how it would look with a couple beefy sentences. I wonder how many sentences and words I can put in here until it looks weird?</p>
                     <section className="icons">
                         <Img src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_70/v1622768279/mongodb-5-1175140_iz9zst.png"/>
-                        <p>MongoDB</p>
+                        <p className="hidden-text">MongoDB</p>
                     </section>
                 </div>
             </div>
@@ -78,27 +80,28 @@ const Skills = () => {
                 <div className="tech-stuff">
                     <section className="icons">
                         <FaGithub size="70" color="#d000ff"/>
-                        <p>GitHub</p>
+                        <p className="hidden-text">GitHub</p>
                     </section>
                     <section className="icons">
                         <FaWindows size="70"/>
-                        <p>Windows</p>
+                        <p className="hidden-text">Windows</p>
                     </section>
                     <section className="icons">
                         <FaUbuntu size="70" color="orange"/>
-                        <p>Ubuntu</p>
+                        <p className="hidden-text">Ubuntu</p>
                     </section>
                     <section className="icons">
                         <Img src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_70/v1622747987/3525127881551941184-512_xr1x1y.png"/>
-                        <p>Linux</p>
+                        <p className="hidden-text">Linux</p>
                     </section>
+                        <p className="hidden-text">This is where Im going to put some text that speaks about what I know. This is also a test to see how it would look with a couple beefy sentences. I wonder how many sentences and words I can put in here until it looks weird?</p>
                     <section className="icons">
                         <Img src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_70/v1622747599/UnRAID-Icon_aycrd6.png"/>
-                        <p>UnRAID</p>
+                        <p className="hidden-text">UnRAID</p>
                     </section>
                     <section className="icons">
                         <FaDocker size="70" />
-                        <p>Dockers (UnRAID)</p>
+                        <p className="hidden-text">Dockers (UnRAID)</p>
                     </section>
                 </div>
             </div>

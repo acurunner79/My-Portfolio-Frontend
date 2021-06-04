@@ -15,7 +15,8 @@ body {
   color: #32bacc;
   /* -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black; */
-  font-family: 'Unica One';
+  /* font-family: 'Unica One'; */
+  font-family: 'Rajdhani';
 }
 
 h1 {
@@ -51,8 +52,8 @@ useEffect(() => getData(), [])
         </Route>
         <Route exact path="/my_projects">
           <Nav />
-          <Skills />
           <ProjectCard project={project}/>
+          <Skills />
         </Route>
       </Switch>
     </div>
