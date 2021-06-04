@@ -24,13 +24,6 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-.skills-container{
-  border-right: 2px solid #32bacc;
-  border-left: 2px solid #32bacc;
-  border-bottom: 2px solid #32bacc;
-  margin: 30px 30px 30px 30px;
-}
 `
 function App() {
   const [project, setProject] = useState(null)
