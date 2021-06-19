@@ -15,17 +15,17 @@
     margin: 10px auto;
     max-width: 200px;
     padding: 5px;
-    text-decoration: underline #32bacc;
+    text-decoration: none #32bacc;
   }
-  
-  /* .click-icons {
-    display: flex;
-    width: 250px;
-    height: 250px;
-    align-items: center;
-  } */
+
+  a:hover{
+    border: 2px solid #a3a3a3;
+    -moz-transition: all 0s ease-in;
+    -o-transition: all 0s ease-in;
+    -webkit-transition: all 0s ease-in;
+    transition: all 0s ease-in;
+  }
   
   .icon {
     margin: 25px;
-    /* margin-bottom: 10px; */
   }
