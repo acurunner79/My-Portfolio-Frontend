@@ -96,8 +96,8 @@ div.button-container{
 }
 
 .project-image {
-    background-color: black !important;
-    width: 250px;
+    /* background-color: black !important; */
+    /* width: 250px; */
     height: 250px;
     /* border-radius: 4px; */
     border: 2px solid black;
