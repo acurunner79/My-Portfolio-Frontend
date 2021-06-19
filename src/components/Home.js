@@ -33,9 +33,9 @@ const Home = () => {
             <div className="click-icons">
               {/* <h1>Lets connect!</h1> */}
               <div id="home-icons">
-                <a target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1cHCoiVcES6uHkpnJ37Y4np6dteilCvuEUfaUDPhMQdY/edit?usp=sharing"><h2>Resume</h2><img className="icon" src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_70/v1617133179/resume-clipart-icon-web-icons-png-intended-for-my-12-300x300_mgu8pb.png" alt="resume-icon"></img>   
+                <a className="icon-hover" target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1cHCoiVcES6uHkpnJ37Y4np6dteilCvuEUfaUDPhMQdY/edit?usp=sharing"><h2>Resume</h2><img className="icon" src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_70/v1617133179/resume-clipart-icon-web-icons-png-intended-for-my-12-300x300_mgu8pb.png" alt="resume-icon"></img>   
                 </a>
-                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jorgelsotojr/"><h2>Linkedin</h2><img className="icon" src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_70/v1617132616/social-linkedin-button-blue-icon--social-bookmark-iconset--yootheme-5_aoha9j.png" alt="linkedin-icon"></img>
+                <a className="icon-hover" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jorgelsotojr/"><h2>Linkedin</h2><img className="icon" src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_70/v1617132616/social-linkedin-button-blue-icon--social-bookmark-iconset--yootheme-5_aoha9j.png" alt="linkedin-icon"></img>
                 </a>
               </div>
             </div>

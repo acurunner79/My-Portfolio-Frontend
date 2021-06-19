@@ -18,7 +18,7 @@
     text-decoration: none #32bacc;
   }
 
-  a:hover{
+  a.icon-hover:hover{
     border: 2px solid #a3a3a3;
     -moz-transition: all 0s ease-in;
     -o-transition: all 0s ease-in;
