@@ -14,7 +14,7 @@ padding: 10px 10px;
 const Skills = () => {
 
     return (
-        <>
+        <div>
         <div>
             <h1>Skills</h1>
         </div>
@@ -38,7 +38,7 @@ const Skills = () => {
                     <FaJs size="70" color="#c8ce0a"/>
                     <p className="hidden-text">JavaScript</p>
                 </section>
-                    <p className="hidden-text">This is where Im going to put some text that speaks about what I know. This is also a test to see how it would look with a couple beefy sentences. I wonder how many sentences and words I can put in here until it looks weird?</p>
+                    <p className="hidden-text">Here is a list of front end languages and frameworks in which I've worked with on all of my projects. I've also worked with some libraries such as React Styled Components, React Bootstrap, and React Icons. I am also experienced in using Netlify for all of my front end deployments. </p>
                 <section className="icons">
                     <FaBootstrap size="70" color="purple"/>
                     <p className="hidden-text">Bootstrap</p>
@@ -68,7 +68,7 @@ const Skills = () => {
                         <Img src="https://res.cloudinary.com/acurunner79/image/upload/v1616795549/13642417491551942639_rk0uow.svg"/>
                         <p className="hidden-text">Ruby On Rails</p>
                     </section>
-                        <p className="hidden-text">This is where Im going to put some text that speaks about what I know. This is also a test to see how it would look with a couple beefy sentences. I wonder how many sentences and words I can put in here until it looks weird?</p>
+                        <p className="hidden-text">Proficient in working with SQL relational databases, NoSQL non-relational databases, and have worked with Heroku's container-based cloud platform for deployments. I've also created projects with full CRUD capabilities and have used tools like Postman to test my routes are functioning properly.</p>
                     <section className="icons">
                         <Img src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_70/v1622768279/mongodb-5-1175140_iz9zst.png"/>
                         <p className="hidden-text">MongoDB</p>
@@ -94,7 +94,7 @@ const Skills = () => {
                         <Img src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_70/v1622747987/3525127881551941184-512_xr1x1y.png"/>
                         <p className="hidden-text">Linux</p>
                     </section>
-                        <p className="hidden-text">This is where Im going to put some text that speaks about what I know. This is also a test to see how it would look with a couple beefy sentences. I wonder how many sentences and words I can put in here until it looks weird?</p>
+                        <p className="hidden-text">My passion for tech goes beyond coding! I currently have my own at home server that is currently running UnRAID. UnRAID has introduced me to things like, XML, Dockers, Plugins, KVM Templates, and so on. It's also allowed me to be able to inprove my skills on Windows, Linux, and MacOS. I'm also very comfortable using GitHub with all my projects including the use of dev branches while working on team projects.</p>
                     <section className="icons">
                         <Img src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_70/v1622747599/UnRAID-Icon_aycrd6.png"/>
                         <p className="hidden-text">UnRAID</p>
@@ -106,7 +106,7 @@ const Skills = () => {
                 </div>
             </div>
         </div>
-        </>
+        </div>
     )
 }
 

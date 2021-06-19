@@ -1,32 +1,54 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
+import {Accordion} from 'react-bootstrap'
 import './card.css'
 
 
 const ProjectCard = ({project}) => {
 
 
+
     const loaded = () => {
         return (
+            <div>
+                <h1>Projects</h1>
             <div className="card-container">
                 {project?.map((info, index) => {
-                    return (
+                    return ( 
                         <div key={index}>
                         <h2>{info.name}</h2>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img className="project-image" src={info.img} />
-                            <Card.Body className="card-body">
-                                <Card.Title></Card.Title>
-                                <Card.Text className="card-text">
-                                    {info.description}
-                                </Card.Text>
-                                <button className="card-button" variant="secondary" ><h2><a target="_blank" rel="noreferrer" href={info.url}>Open Project</a></h2></button>
-                            </Card.Body>
+                                <Accordion >
+                                    <Accordion.Toggle as={Card.Header} eventKey="0">
+                                        <div class="center-con">
+                                            <div class="round">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </Accordion.Toggle>
+                                    <Accordion.Collapse eventKey="0">
+                                        <Card.Body className="descr-style">{info.description}</Card.Body>
+                                    </Accordion.Collapse>
+                                </Accordion>
+                                    <Card.Body className="card-body">
+                                        <Card.Title></Card.Title>
+                                            <Card.Text className="card-text">
+                                           {/* {info.description} */}
+                                            </Card.Text>
+                                        <div className="button-container">
+                                            <button className="card-button" variant="secondary" ><h4><a target="_blank" rel="noreferrer" href={info.url}>Go To Site</a></h4></button>
+                                            <button className="card-button" variant="secondary" ><h4><a target="_blank" rel="noreferrer" href={info.github}>GitHub</a></h4></button>
+                                        </div>
+                                </Card.Body>
                         </Card>
                     </div>
-
                     )
                 })}
+            </div>
             </div>
         )
     }

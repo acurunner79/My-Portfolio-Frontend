@@ -9,7 +9,7 @@
   #home-icons {
     display: flex;
     justify-content: center;
-    border: 2px solid #32bacc;
+    /* border: 2px solid #32bacc; */
     border-radius: 4px;
     border-top: black;
     margin: 10px auto;

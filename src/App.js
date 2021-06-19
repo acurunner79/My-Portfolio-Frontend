@@ -5,6 +5,7 @@ import Home from './components/Home'
 import ProjectCard from './components/ProjectCard'
 import Skills from './components/Skills'
 import Landing from './components/Landing'
+import About from './components/About'
 import {createGlobalStyle} from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
@@ -42,20 +43,24 @@ useEffect(() => getData(), [])
   return (
     <div className="App">
       <GlobalStyle />
-      <Switch>
-        <Route exact path ="/">
-          <Landing />
-        </Route>
-        <Route exact path ="/home">
-          <Nav />
-          <Home />
-        </Route>
-        <Route exact path="/my_projects">
-          <Nav />
-          <ProjectCard project={project}/>
-          <Skills />
-        </Route>
-      </Switch>
+        <Switch>
+          <Route exact path ="/">
+            <Landing />
+          </Route>
+          <Route exact path ="/home">
+            <Nav />
+            <Home />
+          </Route>
+          <Route exact path="/my_projects">
+            <Nav />
+            <ProjectCard project={project}/>
+            <Skills />
+          </Route>
+          <Route exact path="/contact">
+            <Nav />
+            <About/>
+          </Route>
+        </Switch>
     </div>
   );
 }

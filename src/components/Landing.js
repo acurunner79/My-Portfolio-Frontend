@@ -5,7 +5,7 @@ import './landing.css'
 
 const Landing = () => {
     return (
-        <>
+       <div>
         <div>
         </div>
         <div className="container">
@@ -17,7 +17,7 @@ const Landing = () => {
             <button className="button"><h3>Enter Site</h3></button>
           </Link>
         </div>
-        </>
+        </div> 
     )
 }
 
