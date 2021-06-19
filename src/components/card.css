@@ -31,9 +31,6 @@ h4 {
     /* margin-top: 0 auto;   */
 }
 
-.card-img{
-    background-color: black !important;
-}
 
 .card-img, .card-img-bottom{
     border-bottom-right-radius: 0px !important;
@@ -46,6 +43,7 @@ h4 {
 }
 
 div.card{
+    background-color: black !important;
     border: transparent !important;
     margin: 50px;
 }
@@ -98,7 +96,7 @@ div.button-container{
 }
 
 .project-image {
-    background-color: black;
+    background-color: black !important;
     width: 250px;
     height: 250px;
     /* border-radius: 4px; */
