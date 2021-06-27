@@ -25,8 +25,8 @@ const Home = () => {
     return(
         <div className="main-container">
             <h1>Jorge Soto</h1>
-            <h1>Full Stack Web Developer</h1>
             <img src="https://res.cloudinary.com/acurunner79/image/upload/v1609628595/a41da708-81e9-4ec3-9364-9d8748f7063d-abefd9c3-2fd7-4408-9b0a-a57280c0ca82-v1_iaim8e.png" alt="Jorge Soto"></img>
+            <h1>Full Stack Web Developer</h1>
         <Div>
             <P>Full-stack web developer and professional dancer who is always looking for ways to improve in all aspects. I use React to develop responsive applications with cleaner code. Eager to create unique web applications that challenge me to deliver an even greater product</P>
         </Div>

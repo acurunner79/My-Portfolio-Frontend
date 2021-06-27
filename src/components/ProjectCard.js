@@ -21,6 +21,11 @@ const ProjectCard = ({project}) => {
                             <Card.Img className="project-image" src={info.img} />
                                 <Accordion >
                                     <Accordion.Toggle as={Card.Header} eventKey="0">
+                                        <div className="button-container">
+                                            <button className="card-button" variant="secondary" ><h4><a target="_blank" rel="noreferrer" href={info.url}>Go To Site</a></h4></button>
+                                            <button className="card-button" variant="secondary" ><h4><a target="_blank" rel="noreferrer" href={info.github}>GitHub</a></h4></button>
+                                        </div>
+                                            <h4>Description</h4>
                                         <div class="center-con">
                                             <div class="round">
                                                 <span></span>
@@ -39,10 +44,6 @@ const ProjectCard = ({project}) => {
                                             <Card.Text className="card-text">
                                            {/* {info.description} */}
                                             </Card.Text>
-                                        <div className="button-container">
-                                            <button className="card-button" variant="secondary" ><h4><a target="_blank" rel="noreferrer" href={info.url}>Go To Site</a></h4></button>
-                                            <button className="card-button" variant="secondary" ><h4><a target="_blank" rel="noreferrer" href={info.github}>GitHub</a></h4></button>
-                                        </div>
                                 </Card.Body>
                         </Card>
                     </div>
