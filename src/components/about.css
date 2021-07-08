@@ -8,6 +8,12 @@
     padding: 20px;
 }
 
+label.contact-label{
+    display:flex;
+    margin-left: 45px;
+    padding: 0 auto;
+}
+
 .inputs{
     min-width: 80%;
     height: 40px;
@@ -27,6 +33,10 @@
     padding-top: 50px;
     padding-bottom: 50px;
     }
+
+    label.contact-label{
+        margin-left: 80px;
+    }
 }
 
 @media (min-width: 1024px){
@@ -38,6 +48,10 @@
     #contact-header{
         padding-top: 80px;
         width: 800px;
+    }
+
+    label.contact-label{
+        margin-left: 45px;
     }
 
     form{

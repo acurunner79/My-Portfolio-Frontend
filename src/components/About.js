@@ -19,24 +19,32 @@ const About = () => {
          </div>
             <form onSubmit={handleSubmit}>
                <ValidationError field="email" prefix="Email" errors={state.errors} />
+               <label className="contact-label">First Name</label>
+                  {/* <br/> */}
                <input className="inputs"
                   type="name"
                   name="first name"
-                  placeholder="First Name">
+                  placeholder="Required">
                </input>
                   <br/>
+               <label className="contact-label">Last Name</label>
+               {/* <br/> */}
                <input className="inputs"
                   type="name"
                   name="last name"
-                  placeholder="Last Name">
+                  placeholder="Required">
                </input>
                   <br/>
+               <label className="contact-label">Email Address</label>
+                  {/* <br/> */}
                <input className="inputs"
                   type="email"
                   name="email"
-                  placeholder="Email Address">
+                  placeholder="Required">
                </input>
                   <br/>
+               <label className="contact-label">Message</label>
+                  {/* <br/> */}
                <textarea
                   id="message"
                   name="message">
