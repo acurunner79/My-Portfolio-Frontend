@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import './skills.css'
-import { FaReact, FaHtml5, FaCss3, FaJs, FaBootstrap, FaNode, FaNpm, FaDocker, FaUbuntu, FaGithub, FaWindows  } from 'react-icons/fa'
+import { FaReact, FaHtml5, FaCss3, FaJs, FaBootstrap, FaNode, FaNpm, FaDocker, FaUbuntu, FaGithub, FaWindows,   } from 'react-icons/fa'
+import { GrGatsbyjs, GrGraphQl } from "react-icons/gr";
+import { SiRubygems } from "react-icons/si";
 
 
 const Img = styled.img`
@@ -52,6 +54,10 @@ const Skills = () => {
                     <FaNpm size="70" color="red"/>
                     <p className="hidden-text">NPM</p>
                 </section>
+                <section className="icons">
+                    <GrGatsbyjs size="70" color="purple"/>
+                    <p className="hidden-text">GatsbyJs</p>
+                </section>
             </div>
             </div>
             <div className="skills-container">
@@ -74,6 +80,14 @@ const Skills = () => {
                         <Img src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_70/v1622768279/mongodb-5-1175140_iz9zst.png"/>
                         <p className="hidden-text">MongoDB</p>
                     </section>
+                    <section className="icons">
+                    <GrGraphQl size="70" color="#d000ff"/>
+                    <p className="hidden-text">GraphQL</p>
+                </section>
+                <section className="icons">
+                    <SiRubygems size="70" color="red"/>
+                    <p className="hidden-text">Ruby Gems</p>
+                </section>
                 </div>
             </div>
             <div className="skills-container">
