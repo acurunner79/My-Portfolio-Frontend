@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import './skills.css'
 import { FaReact, FaHtml5, FaCss3, FaJs, FaBootstrap, FaNode, FaNpm, FaDocker, FaUbuntu, FaGithub, FaWindows,   } from 'react-icons/fa'
 import { GrGatsbyjs, GrGraphQl } from "react-icons/gr";
-import { SiRubygems } from "react-icons/si";
+import { SiRubygems, SiMongodb, SiPostgresql, SiRuby, SiRails, SiPostman } from "react-icons/si";
 
 
 const Img = styled.img`
@@ -64,20 +64,24 @@ const Skills = () => {
                 <h1>Back-End</h1>
                 <div className="back-end">
                     <section className="icons">
-                        <Img src="https://res.cloudinary.com/acurunner79/image/upload/v1616795549/13248968591579517872_n86pje.svg"/>
+                        <SiRuby size="70" color="red"/>
                         <p className="hidden-text">Ruby</p>
                     </section>
                     <section className="icons">
-                        <Img src="https://res.cloudinary.com/acurunner79/image/upload/v1616795549/8609334331551942134_uokmqg.svg"/>
+                        <SiPostgresql size="70"/>
                         <p className="hidden-text">PostgreSQL</p>
                     </section>
                     <section className="icons">
-                        <Img src="https://res.cloudinary.com/acurunner79/image/upload/v1616795549/13642417491551942639_rk0uow.svg"/>
+                        <SiRails size="70" color="red"/>
                         <p className="hidden-text">Ruby On Rails</p>
+                    </section>
+                    <section className="icons">
+                        <SiPostman size="70" color="#DD6D05"/>
+                        <p className="hidden-text">Postman</p>
                     </section>
                         <p className="hidden-text">Proficient in working with SQL relational databases, NoSQL non-relational databases, and have worked with Heroku's container-based cloud platform for deployments. I've also created projects with full CRUD capabilities and have used tools like Postman to test my routes are functioning properly.</p>
                     <section className="icons">
-                        <Img src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_70/v1622768279/mongodb-5-1175140_iz9zst.png"/>
+                        <SiMongodb size="70" color="#036B03"/>
                         <p className="hidden-text">MongoDB</p>
                     </section>
                     <section className="icons">
