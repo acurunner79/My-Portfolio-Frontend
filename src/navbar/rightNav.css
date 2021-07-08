@@ -4,11 +4,11 @@
     display: flex;
     flex-flow: row nowrap;
     flex-flow: column nowrap;
-    width: 200px;
+    width: 100%;
     height: 100%;
     position: fixed;
     top: 0;
-    right: -200px;
+    right: -460px;
     transition: all 0.5s ease-in-out;
     z-index: 50;
     /* -webkit-text-stroke-width: 1px;
@@ -48,3 +48,10 @@ div.right-nav.open {
          right: -300px;
      }
  }
+
+ @media (min-width: 1024px) {
+    .right-nav{
+        width: 0;
+        right: -300px;
+    }
+}

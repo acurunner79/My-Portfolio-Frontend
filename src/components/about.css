@@ -1,0 +1,47 @@
+#contact-card{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-header{
+    text-align: center;
+    padding: 20px;
+}
+
+.inputs{
+    min-width: 80%;
+    height: 40px;
+    margin: 10px 0 10px 0;
+    border-radius: 4px;
+}
+
+#message{
+    width: 80%;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+@media (min-width: 768px){
+    #contact-header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 1024px){
+    #contact-card{
+        max-width: 800vw;
+        align-items: center;
+    }
+
+    #contact-header{
+        padding-top: 80px;
+        width: 800px;
+    }
+
+    form{
+        width: 40%;
+    }
+
+}
